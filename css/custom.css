@@ -314,3 +314,23 @@ h6 {
 .progress-wrap:hover .progress-bar{
     transform: translateX(25px);
 }
+
+.project .desc{
+    background-color: var(--primcolor);
+}
+
+.project .desc .con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.project:hover .desc{
+    opacity: 0.8;
+}
+
+.project .desc .con h3{
+    font-size: 40px;
+}
